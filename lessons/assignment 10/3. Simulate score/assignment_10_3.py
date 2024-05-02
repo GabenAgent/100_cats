@@ -20,11 +20,6 @@ def score_counter(players_score):
     return counter
 
 
-def save_to_csv(average_scores):
-    with open(game_csv, "w", newline="") as csvfile:
-
-
-
 players = ("Josh", "Luke", "Kate", "Mark" , "Mary")
 players_score = simulate_scores(players)
 average_scores = score_counter(players_score)
